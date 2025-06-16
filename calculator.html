@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All-In-One Tools | Free Online Utilities</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="tools.css">
+            <link rel="stylesheet" href="utilities.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Tools<span>Hub</span></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                   <li><a href="index.html">Home</a></li>
+                    <li><a href="bg-remover.html">Bg Remover</a></li>
+                    <li><a href="calculator.html">Calculator</a></li>
+                    <li><a href="img-to-pdf.html">Img To Pdf</a></li>
+                    <li><a href="nodepad.html">nodepad</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <div class="theme-toggle">
+                 
+                </div>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+   <!-- Similar header/footer structure -->
+<main class="tool-container">
+    <section class="tool-section">
+        <div class="container">
+            <h1 class="tool-title">Calculator</h1>
+            <p class="tool-description">A simple calculator for basic arithmetic</p>
+            
+            <div class="tool-content">
+                <div class="calculator">
+                    <div class="calculator-display">
+                        <div class="previous-operand" id="previousOperand"></div>
+                        <div class="current-operand" id="currentOperand">0</div>
+                    </div>
+                    
+                    <div class="calculator-buttons">
+                        <button class="calc-btn span-2" data-action="clear">AC</button>
+                        <button class="calc-btn" data-action="delete">DEL</button>
+                        <button class="calc-btn operator" data-action="÷">÷</button>
+                        
+                        <button class="calc-btn" data-action="7">7</button>
+                        <button class="calc-btn" data-action="8">8</button>
+                        <button class="calc-btn" data-action="9">9</button>
+                        <button class="calc-btn operator" data-action="×">×</button>
+                        
+                        <button class="calc-btn" data-action="4">4</button>
+                        <button class="calc-btn" data-action="5">5</button>
+                        <button class="calc-btn" data-action="6">6</button>
+                        <button class="calc-btn operator" data-action="-">-</button>
+                        
+                        <button class="calc-btn" data-action="1">1</button>
+                        <button class="calc-btn" data-action="2">2</button>
+                        <button class="calc-btn" data-action="3">3</button>
+                        <button class="calc-btn operator" data-action="+">+</button>
+                        
+                        <button class="calc-btn span-2" data-action="0">0</button>
+                        <button class="calc-btn" data-action=".">.</button>
+                        <button class="calc-btn operator" data-action="=">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>About ToolsHub</h3>
+                    <p>Providing free, easy-to-use online tools since 2023. No registration required.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#tools">Tools</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> contact@toolshub.example</li>
+                        <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 ToolsHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="calculator.js"></script>
+</body>
+</html>
